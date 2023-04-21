@@ -1,4 +1,6 @@
-﻿namespace DataAccess.Models;
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace DataAccess.Models;
 
 public sealed class Product
 {
