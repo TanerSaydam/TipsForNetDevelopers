@@ -15,7 +15,6 @@ internal class Program
         };
         context.Products.Add(product);
         context.SaveChanges();
-
         //Console.WriteLine(product?.Name);
     }
 }
