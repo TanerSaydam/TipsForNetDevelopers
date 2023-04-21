@@ -11,4 +11,11 @@ public sealed class AppDbContext : DbContext
     }
 
     public DbSet<Product> Products { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity<Product>()
+            .HasIndex(e=> e.Name)
+            .IsUnique(); 
+    }
 }
