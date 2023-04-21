@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pagination", "Pagination\Pa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASenkron", "ASenkron\ASenkron.csproj", "{5D450759-4303-4EA4-8421-7AFA522E39FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancellationTokenWebApi", "CancellationTokenWebApi\CancellationTokenWebApi.csproj", "{3FCEAD49-0AAB-4605-902B-11F8E8270400}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{5D450759-4303-4EA4-8421-7AFA522E39FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D450759-4303-4EA4-8421-7AFA522E39FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D450759-4303-4EA4-8421-7AFA522E39FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FCEAD49-0AAB-4605-902B-11F8E8270400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FCEAD49-0AAB-4605-902B-11F8E8270400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FCEAD49-0AAB-4605-902B-11F8E8270400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FCEAD49-0AAB-4605-902B-11F8E8270400}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
