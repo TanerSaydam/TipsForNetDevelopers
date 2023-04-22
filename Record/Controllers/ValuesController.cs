@@ -6,7 +6,7 @@ namespace Record.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public sealed class ValuesController : ControllerBase
     {
         [HttpPost("[action]")]
         public IActionResult Login(LoginDto loginDto)
