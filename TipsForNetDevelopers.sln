@@ -3,23 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{898ADAF5-6ECF-4814-824E-37E6C092AF6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{898ADAF5-6ECF-4814-824E-37E6C092AF6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartConsoleApp", "StartConsoleApp\StartConsoleApp.csproj", "{B9D3B8AC-BFF1-44C7-A11B-B22D3FE9F062}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StartConsoleApp", "StartConsoleApp\StartConsoleApp.csproj", "{B9D3B8AC-BFF1-44C7-A11B-B22D3FE9F062}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark", "Benchmark.ConsoleApp\Benchmark.csproj", "{A78699C5-33B7-4329-8C6A-E5F591983714}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmark", "Benchmark.ConsoleApp\Benchmark.csproj", "{A78699C5-33B7-4329-8C6A-E5F591983714}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsNoTracking", "AsNoTracking\AsNoTracking.csproj", "{2B1351DB-4D6C-4FA4-81F7-F76320061F1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsNoTracking", "AsNoTracking\AsNoTracking.csproj", "{2B1351DB-4D6C-4FA4-81F7-F76320061F1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleOrUnique", "SingleOrUnique\SingleOrUnique.csproj", "{5E7A6B5B-F259-4166-A718-496A4280E656}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleOrUnique", "SingleOrUnique\SingleOrUnique.csproj", "{5E7A6B5B-F259-4166-A718-496A4280E656}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pagination", "Pagination\Pagination.csproj", "{EA0A756D-F64F-4D76-A1A9-58D5D84C2F26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pagination", "Pagination\Pagination.csproj", "{EA0A756D-F64F-4D76-A1A9-58D5D84C2F26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASenkron", "ASenkron\ASenkron.csproj", "{5D450759-4303-4EA4-8421-7AFA522E39FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASenkron", "ASenkron\ASenkron.csproj", "{5D450759-4303-4EA4-8421-7AFA522E39FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancellationTokenWebApi", "CancellationTokenWebApi\CancellationTokenWebApi.csproj", "{3FCEAD49-0AAB-4605-902B-11F8E8270400}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancellationTokenWebApi", "CancellationTokenWebApi\CancellationTokenWebApi.csproj", "{3FCEAD49-0AAB-4605-902B-11F8E8270400}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorLog", "ErrorLog\ErrorLog.csproj", "{A27DCAB8-59FC-4514-9791-612EA0FF0334}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ErrorLog", "ErrorLog\ErrorLog.csproj", "{A27DCAB8-59FC-4514-9791-612EA0FF0334}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQueryable", "IQueryable\IQueryable.csproj", "{BB343CC9-4714-47AE-9840-90EA1C76797E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{A27DCAB8-59FC-4514-9791-612EA0FF0334}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A27DCAB8-59FC-4514-9791-612EA0FF0334}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A27DCAB8-59FC-4514-9791-612EA0FF0334}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB343CC9-4714-47AE-9840-90EA1C76797E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB343CC9-4714-47AE-9840-90EA1C76797E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB343CC9-4714-47AE-9840-90EA1C76797E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB343CC9-4714-47AE-9840-90EA1C76797E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
