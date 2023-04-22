@@ -1,6 +1,6 @@
 ﻿namespace DataAccess.Models;
 
-public sealed class PerformanceLog
+public class PerformanceLog
 {
     public int Id { get; set; }
     public string MethodName { get; set; }
