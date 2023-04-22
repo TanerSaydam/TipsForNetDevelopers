@@ -3,17 +3,17 @@ using BenchmarkDotNet.Configs;
 using DataAccess.Context;
 using Microsoft.EntityFrameworkCore;
 
-namespace Benchmark.ConsoleApp;
+namespace Benchmark;
 
 [ShortRunJob, Config(typeof(Config))]
 public class BenchmarkService
 {
-    private class Config: ManualConfig
+    private class Config : ManualConfig
     {
-        public Config() 
+        public Config()
         {
             SummaryStyle = BenchmarkDotNet.Reports.SummaryStyle.Default.WithRatioStyle(BenchmarkDotNet.Columns.RatioStyle.Trend);
-        } 
+        }
     }
 
     //[Benchmark(Baseline = true)]

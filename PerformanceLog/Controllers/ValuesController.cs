@@ -3,7 +3,7 @@ using DataAccess.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace PerformanceLogWebApi.Controllers;
+namespace PerformanceLog.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]

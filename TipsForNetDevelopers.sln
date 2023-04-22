@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceLog", "Performan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsReadOnly", "AsReadOnly\AsReadOnly.csproj", "{422213CD-55B3-40D4-9DBF-377A02916D83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnyAllMethods", "AnyAllMethods\AnyAllMethods.csproj", "{96F982F8-0F93-4386-8A98-27B2B97E9B0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{422213CD-55B3-40D4-9DBF-377A02916D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{422213CD-55B3-40D4-9DBF-377A02916D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{422213CD-55B3-40D4-9DBF-377A02916D83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96F982F8-0F93-4386-8A98-27B2B97E9B0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96F982F8-0F93-4386-8A98-27B2B97E9B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96F982F8-0F93-4386-8A98-27B2B97E9B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96F982F8-0F93-4386-8A98-27B2B97E9B0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
