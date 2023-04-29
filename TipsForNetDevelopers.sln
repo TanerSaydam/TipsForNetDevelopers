@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnyAllMethods", "AnyAllMeth
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EagerLazyLoading", "EagerLazyLoading\EagerLazyLoading.csproj", "{25F6FB33-9049-4489-8151-806A27C2D3E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequiredMember", "RequiredMember\RequiredMember.csproj", "{07BDBC19-2CBD-4656-8A08-5FF8EEAF1C73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RequiredMember", "RequiredMember\RequiredMember.csproj", "{07BDBC19-2CBD-4656-8A08-5FF8EEAF1C73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization", "Authorization\Authorization.csproj", "{6784C433-0770-4225-949B-B19922C782AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{07BDBC19-2CBD-4656-8A08-5FF8EEAF1C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07BDBC19-2CBD-4656-8A08-5FF8EEAF1C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07BDBC19-2CBD-4656-8A08-5FF8EEAF1C73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6784C433-0770-4225-949B-B19922C782AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6784C433-0770-4225-949B-B19922C782AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6784C433-0770-4225-949B-B19922C782AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6784C433-0770-4225-949B-B19922C782AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
