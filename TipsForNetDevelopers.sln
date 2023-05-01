@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EagerLazyLoading", "EagerLa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RequiredMember", "RequiredMember\RequiredMember.csproj", "{07BDBC19-2CBD-4656-8A08-5FF8EEAF1C73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authorization", "Authorization\Authorization.csproj", "{6784C433-0770-4225-949B-B19922C782AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authorization", "Authorization\Authorization.csproj", "{6784C433-0770-4225-949B-B19922C782AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthChecks", "HealthChecks\HealthChecks.csproj", "{83AEDDBF-27B5-4AD4-8D94-3B1CF8360A0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{6784C433-0770-4225-949B-B19922C782AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6784C433-0770-4225-949B-B19922C782AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6784C433-0770-4225-949B-B19922C782AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83AEDDBF-27B5-4AD4-8D94-3B1CF8360A0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83AEDDBF-27B5-4AD4-8D94-3B1CF8360A0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83AEDDBF-27B5-4AD4-8D94-3B1CF8360A0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83AEDDBF-27B5-4AD4-8D94-3B1CF8360A0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
